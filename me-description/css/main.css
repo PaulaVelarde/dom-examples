@@ -1,0 +1,60 @@
+
+div#main-container {
+  width: 500px;
+  height: 650px;
+
+  overflow: hidden;
+
+  margin: 10px;
+  padding: 0;
+
+  background-color: #c4c4c4;
+}
+
+div#title,
+div#info,
+div#me-container {
+  width: 100%;
+  position: relative;
+}
+
+div#title {
+  text-align: center;
+  margin-top: 10px;
+
+  font-size: 24px;
+  font-weight: bold;
+}
+
+div#info {
+  padding: 10px;
+}
+
+div#info > div {
+  width: 100%;
+  margin-top: 5px;
+}
+
+div.label {
+  display: inline-block;
+  width: 60px;
+}
+
+div.value {
+  display: inline-block;
+  width: 100px;
+  background-color: white;
+}
+
+div#me-container {
+  height: 400px;
+  margin-top: 10px;
+  background-color: white;
+}
+
+div#me-container img {
+  width: 400px;
+  position: absolute;
+  top: 0px;
+  left: 20px;
+}

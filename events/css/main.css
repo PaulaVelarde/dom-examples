@@ -1,0 +1,41 @@
+
+#main-container {
+  padding: 10px;
+  margin: 10px;
+}
+
+#zone-1,
+#zone-2 {
+  width: 450px;
+  height: 450px;
+
+  border: 1px solid #000;
+
+  display: block;
+  position: relative;
+  float: left;
+
+  overflow: hidden;
+}
+
+#zone-2 {
+  margin-left: 15px;
+}
+
+#zone-1 > div,
+#zone-2 > div {
+  width: 20px;
+  height: 20px;
+
+  position: absolute;
+
+  transform-origin: center center;
+}
+
+div.even {
+  background-color: blue;
+}
+
+div.odd {
+  background-color: green;
+}
